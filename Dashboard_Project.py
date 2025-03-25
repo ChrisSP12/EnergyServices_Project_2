@@ -55,6 +55,7 @@ df_raw_2019['DateTime'] = pd.to_datetime(df_raw_2019['DateTime'])
 
 # Initialize Dash App
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, suppress_callback_exceptions=True)
+server = app.server
 app.title = "IST Energy Forecast"
 
 # Store for keeping metrics
