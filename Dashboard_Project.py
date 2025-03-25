@@ -722,4 +722,4 @@ def update_metrics(data, selected_metrics):
     ], className='container mt-4')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server()
